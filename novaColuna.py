@@ -21,3 +21,4 @@ print(df.tail(3)) #Visualiza os 3 ultimos da lista
 print(df.T) #transforma linha em coluna e coluna em linha
 
 
+
