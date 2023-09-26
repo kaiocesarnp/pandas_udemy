@@ -22,4 +22,3 @@ print(df.T) #transforma linha em coluna e coluna em linha
 
 
 
-
