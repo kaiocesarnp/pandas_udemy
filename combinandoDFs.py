@@ -36,4 +36,34 @@ df3 = pd.DataFrame({'A': ['A8', 'A9', 'A10', 'A11'],
 
 #------------------
 
+#Adicionando chave de especificação para determinado df
+#grupo = pd.concat([df1, df2, df3], keys = ['f1', 'f2', 'f3']) #cada um dos df agora possui um subgrupo
+#print(grupo)
+
+#Coletar valores de cada key
+#print(grupo.loc['f2'])
+
+#------------------
+
+#Outra maneira de concatenar
+g2 = df1._append(df2)._append(df3)
+print(g2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
