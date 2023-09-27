@@ -22,7 +22,18 @@ df3 = pd.DataFrame({'A': ['A8', 'A9', 'A10', 'A11'],
 #print(df2)
 #print(df3)
 
-frames = [df1, df2, df3]
+#Combinando DFs
+#frames = [df1, df2, df3]
+#framesCombinados = pd.concat(frames)
+#print(framesCombinados)
 
-framesCombinados = pd.concat(frames)
-print(framesCombinados)
+#Outra forma:
+#framesCombinados2 = pd.concat([df1, df2, df3])
+#print(framesCombinados2)
+
+#Forma errada e usada por iniciantes:
+#framesCombinados = pd.concat(df1, df2, df3)
+
+#------------------
+
+
