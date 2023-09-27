@@ -55,32 +55,25 @@ compras = pd.DataFrame(compras, columns = ['Id', 'Data', 'Valor'])
 unicos = pd.concat([cadastro_a, cadastro_b], ignore_index = True)
 
 #Removendo duplicatas:
-print(unicos.drop_duplicates(subset = "Id")) #subset é subconjunto, nesse caso baseado no 'id' de cada cliente
+#print(unicos.drop_duplicates(subset = "Id")) #subset é subconjunto, nesse caso baseado no 'id' de cada cliente
 
+#-------------
 
+#Left Join
+#Identificando clientes que fizeram compras e estão cadastrados na loja A:
 
+esquerda = pd.merge(cadastro_a, compras, how = "left", on = ["Id"])
+#print(esquerda)
 
+#Os que aparecem NaN no resultado é porque não fizeram compras
 
+#Filtrando por pessoa os gastos que tiveram:
+#print(esquerda.groupby(['Id', "Nome"])['Valor'].sum()) #sum = soma
 
+#-------------
 
+#Outer
+#outer junta todos os dados atribuindo a um unico DF
+print(pd.merge(cadastro_a, cadastro_b, how = "outer", on = ["Id"], indicator = True))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#Indicator mostra em qual tabela está cada cliente
