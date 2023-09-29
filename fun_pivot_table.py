@@ -14,8 +14,11 @@ df = pd.DataFrame({'Vendas': Carros, 'Data': dias, 'Vendedor': vendedor})
 print(df)
 
 #Usando a função pivot table com o index repetido
-pivot = pd.pivot_table(df, index = 'Data', columns = 'Vendedor', values = 'Vendas')
+pivot = pd.pivot_table(df, index = 'Data', columns = 'Vendedor', values = 'Vendas', aggfunc = 'sum')
 print(pivot)
 
-#O numero de vendas é dividido pelo tanto de vezes que o nome do vendedor aparece
-    #no DF, por isso são numeros 'quebrados' (floats)
+#Por padrão, o numero de vendas é dividido pelo tanto de vezes que o nome do
+    #vendedor aparece no DF (média = aggfunc = 'mean'), por isso são numeros
+    #'quebrados' (floats), mas é  possível mudar com a função 'aggfunc'.
+    #No caso faremos a soma(sum)
+
