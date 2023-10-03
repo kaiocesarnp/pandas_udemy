@@ -46,25 +46,9 @@ f =df.loc['20180301' : '20180917', ['A', 'E']]
 
 
 #Coletando dados de outra forma:
-print(df.iloc[1:3, :]) #da linha 1 a 3 e todas (:) as colunas
+#print(df.iloc[1:3, :]) #da linha 1 a 3 e todas (:) as colunas
 
+#----------------------------------------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#Coletando dados utilizando lógica booleana:
+print(df[df.A > 0]) #Busca todos os valores maiores que zero, somente na coluna A
