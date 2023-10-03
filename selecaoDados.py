@@ -30,14 +30,23 @@ df = pd.DataFrame(np.random.randn(600, 5), index = datas, columns = list("ABCDE"
 
 #Saber quantos dias há entre as datas:
 f =df.loc['20180301' : '20180917', ['A', 'E']]
-print(len(f))
+#print(len(f))
 
 
+#Coletando linhas específicas:
+#print(df.iloc[15])
 
 
+#Coletando linhas e colunas específicas:
+#print(df.iloc[2 : 4, 0 : 2]) #linha 2 a 4, coluna de indice 0 a 2
 
 
+#Coletando conjuntos de linhas/posições específicas:
+#print(df.iloc[[1,5,6], [0,3]])
 
+
+#Coletando dados de outra forma:
+print(df.iloc[1:3, :]) #da linha 1 a 3 e todas (:) as colunas
 
 
 
