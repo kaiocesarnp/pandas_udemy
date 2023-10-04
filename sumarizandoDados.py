@@ -46,27 +46,3 @@ print(df1.describe())
 
 
 #LEMBRANDO QUE O QUE VEM ANTES DA VÍRGULA SÃO LINHAS E O QUE VEM DEPOIS, SÃO COLUNAS!!!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
