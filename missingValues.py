@@ -25,4 +25,3 @@ df3 = df.copy()
 #Substituindo os valores "NaN" por um nº específico (777)
 df4 = df.copy()
 print(df4.fillna(value = 777))
-
