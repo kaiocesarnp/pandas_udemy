@@ -22,3 +22,4 @@ df2 = df.copy()
 df3 = df.copy()
 print(df3.F.fillna(np.mean(df3.A))) #fillna = preencher, na = NaN, ou seja, preencha os valores NaN
 
+
