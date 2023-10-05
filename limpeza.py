@@ -16,9 +16,16 @@ print(df2)
 
 
 #Verificando se há dados repetidos:
-print(df2.nunique(dropna = False))
+#print(df2.nunique(axis = 0, dropna = False))
 #como padrão, o 'nunique' vem com 'dropna = true', o que exclui elementos "NaN".
     #sendo possível modificar para 'false' e assim contabilizar "NaN" como um valor também
 
 #axis=0: A contagem de valores únicos é realizada ao longo das colunas.
 #axis=1: A contagem de valores únicos é realizada ao longo das linhas.
+
+
+#Removendo duplicatas:
+print(df2.drop_duplicates(subset = 'G', keep = False))
+#'subset = g' confere se só na coluna G há duplicatas
+#keep = first : por padrão o keep mantém o primeiro, mas pode-se alterar
+    #por ex para 'last', onde mantém o último, ou ainda para False (sem aspas) removendo tudo
