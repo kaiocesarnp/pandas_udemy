@@ -20,6 +20,8 @@ df2 = df.copy()
 
 #Substituindo os valore "NaN" da coluna 'F' pela média dos valores de outra coluna (A por ex):
 df3 = df.copy()
-print(df3.F.fillna(np.mean(df3.A))) #fillna = preencher, na = NaN, ou seja, preencha os valores NaN
+#print(df3.F.fillna(np.mean(df3.A))) #fillna = preencher, na = NaN, ou seja, preencha os valores NaN
 
-
+#Substituindo os valores "NaN" por um nº específico (777)
+df4 = df.copy()
+print(df4.fillna(value = 777))
