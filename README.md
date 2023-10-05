@@ -22,5 +22,5 @@ Limpar dados - Data Wrangling;
 
 Visualizar dados com gráficos e tabelas;
 
-Ordem das aulas: dataFrames, novaCouna, combinandoDFs, mergeDF, uso_groupby, ex_multiIndex, reshaping_dados, fun_pivot_ref, fun_pivot_table, stack_unstack, fun_melt, uso_melt, selecaoDados, sumarizandoDados, missingValues, limpeza, 
+Ordem dos arquivos '.py': dataFrames, novaCouna, combinandoDFs, mergeDF, uso_groupby, ex_multiIndex, reshaping_dados, fun_pivot_ref, fun_pivot_table, stack_unstack, fun_melt, uso_melt, selecaoDados, sumarizandoDados, missingValues, limpeza, 
 
