@@ -6,21 +6,21 @@ Pandas é uma das mais importantes bibliotecas Python utilizadas para manipulaç
 
 É recomendado que o aluno tenha conhecimentos básicos da linguagem de programação Python.
 
-Alguns dos conteúdos ministrados: 
+> Alguns dos conteúdos ministrados:
 
-Como baixar e instalar o Pandas no Python;
+- Como baixar e instalar o Pandas no Python;
 
-O que são, como criar e como manipular Dataframes;
+- O que são, como criar e como manipular Dataframes;
 
-Funções Merge e Groupby;
+- Funções Merge e Groupby;
 
-Como funciona o sistema de indexação na Pandas;
+- Como funciona o sistema de indexação na Pandas;
 
-Como fazer reshaping de dados;
+- Como fazer reshaping de dados;
 
-Limpar dados - Data Wrangling;
+- Limpar dados - Data Wrangling;
 
-Visualizar dados com gráficos e tabelas;
+- Visualizar dados com gráficos e tabelas;
 
-Ordem dos arquivos '.py': dataFrames, novaCouna, combinandoDFs, mergeDF, uso_groupby, ex_multiIndex, reshaping_dados, fun_pivot_ref, fun_pivot_table, stack_unstack, fun_melt, uso_melt, selecaoDados, sumarizandoDados, missingValues, limpeza, 
+Ordem dos arquivos '.py': dataFrames, novaCouna, combinandoDFs, mergeDF, uso_groupby, ex_multiIndex, reshaping_dados, fun_pivot_ref, fun_pivot_table, stack_unstack, fun_melt, uso_melt, selecaoDados, sumarizandoDados, missingValues, limpeza, ordenando_dados, abrindoArq, salvandoArq, 
 
