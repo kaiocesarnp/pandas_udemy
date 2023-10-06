@@ -6,7 +6,7 @@ Pandas é uma das mais importantes bibliotecas Python utilizadas para manipulaç
 
 É recomendado que o aluno tenha conhecimentos básicos da linguagem de programação Python.
 
-** Alguns dos conteúdos ministrados: **
+> Alguns dos conteúdos ministrados:
 
 - Como baixar e instalar o Pandas no Python;
 
