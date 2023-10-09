@@ -19,16 +19,22 @@ d = pd.read_csv('c:/users/inss/desktop/k/titanic_train.csv')
 #plt.ylabel('Idade', size = 25)
 #plt.show()
 
+#-------------------
+
 #Utilizando a biblio pandas diretamente:
 #d.Age.plot()
 #plt.xlabel('Passageiro', size = 20)
 #plt.ylabel('Idade', size = 25)
 #plt.show()
 
+#-------------------
+
 #Scatter plot. Mostra como os dados estão espalhados no gráfico
 #print(d.head(2))
 #plt.scatter(d.PassengerId, d.Age, color = 'g', marker = '*') #eixo X é 'passe..' e o Y é 'Age'
 #plt.show()
+
+#-------------------
 
 #Histogramas: distribuição de frequência dos dados
 print(d.head(3))
@@ -36,4 +42,22 @@ print(d.Age.describe())
 d.Age.hist()
 plt.xlabel('Idade')
 plt.ylabel('Freq observada')
+plt.savefig('c:/users/inss/desktop/k/dados.png', transparent = True) #salva os dados numa figura
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
