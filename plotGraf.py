@@ -44,20 +44,3 @@ plt.xlabel('Idade')
 plt.ylabel('Freq observada')
 plt.savefig('c:/users/inss/desktop/k/dados.png', transparent = True) #salva os dados numa figura
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
