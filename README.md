@@ -22,4 +22,4 @@ Pandas é uma das mais importantes bibliotecas Python utilizadas para manipulaç
 
 - Visualizar dados com gráficos e tabelas;
 
-Ordem dos arquivos '.py': dataFrames, novaCouna, combinandoDFs, mergeDF, uso_groupby, ex_multiIndex, reshaping_dados, fun_pivot_ref, fun_pivot_table, stack_unstack, fun_melt, uso_melt, selecaoDados, sumarizandoDados, missingValues, limpeza, ordenando_dados, abrindoArq, salvandoArq
+Ordem dos arquivos '.py': dataFrames, novaCouna, combinandoDFs, mergeDF, uso_groupby, ex_multiIndex, reshaping_dados, fun_pivot_ref, fun_pivot_table, stack_unstack, fun_melt, uso_melt, selecaoDados, sumarizandoDados, missingValues, limpeza, ordenando_dados, abrindoArq, salvandoArq.
